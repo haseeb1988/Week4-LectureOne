@@ -1,4 +1,4 @@
-package LivingThing_Consructor;
+package LivingThing_Abstraction;
 
 public class dog extends Animals {
 	

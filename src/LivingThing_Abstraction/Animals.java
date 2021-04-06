@@ -1,4 +1,4 @@
-package LivingThing_Consructor;
+package LivingThing_Abstraction;
 
 public class Animals extends LivingthingParent {
 	
@@ -48,6 +48,11 @@ public class Animals extends LivingthingParent {
 	{
 		return this.AnimalType;
 	
+	}
+	@Override
+	public void sleep()
+	{
+		System.out.println("Animal sleep silently");
 	}
 	
 	

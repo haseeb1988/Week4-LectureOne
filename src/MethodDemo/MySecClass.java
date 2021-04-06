@@ -2,7 +2,7 @@ package MethodDemo;
 
 public class MySecClass {
 		private int nSample ;
-		private int max;
+		private double max = Double.MAX_VALUE;
 		private int a;
 		private int b;
 		

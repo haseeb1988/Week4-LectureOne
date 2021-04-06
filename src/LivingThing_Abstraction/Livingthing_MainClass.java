@@ -1,4 +1,4 @@
-package LivingThing_Consructor;
+package LivingThing_Abstraction;
 
 public class Livingthing_MainClass {
 
@@ -7,25 +7,43 @@ public class Livingthing_MainClass {
 		
 		
 		 dog d = new dog("Dyln Power");
-		 System.out.print(d.getDogownername());
+		// System.out.print(d.getDogownername());
 		
 		
 		 d.setDogType("Corgi");
 		 
-		 System.out.println(" is a owner of " + d.getDogType());
+		// System.out.println(" is a owner of " + d.getDogType());
 		 
-		 LivingthingParent l = new LivingthingParent();  
+		 
 		 Animals an = new Animals();
 		 Human hu = new Human();
 		
 		 
-		 l.communcate();
-		 an.communcate();
-		 hu.communcate();
-		 d.communcate();
+		
+		// an.communcate();
+		// hu.communcate();
+		// d.communcate();
 		 
+		// an.sleep();
+		// hu.sleep();
 
 		
+		 Student st = new Student();
+		 
+		 st.setFirstName("Muhammad");
+		 st.setLastName("Haseeb");
+		 st.setGpa(2.6f);
+		 st.setRollnum(10214);
+		 
+		 st.displayInfo();
+		 
+		 st.setCourseName();
+		 st.setcourseDuration();
+		 st.setInstructorName();
+		 st.setIAName();
+		 st.setProgramOffer();
+		 st.displaycollage();
+		 
 		
 		
 		

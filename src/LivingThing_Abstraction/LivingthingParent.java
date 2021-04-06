@@ -1,6 +1,6 @@
-package LivingThing_Consructor;
+package LivingThing_Abstraction;
 
-public class LivingthingParent {
+public abstract class LivingthingParent {
 	
 	protected String eat;
 	protected int height;
@@ -38,7 +38,9 @@ public class LivingthingParent {
 	{
 		System.out.println("Livingthings are live to eat");
 	}
-
+	
+	public abstract void sleep();
+	
 	public String getEat() {
 		return eat;
 	}

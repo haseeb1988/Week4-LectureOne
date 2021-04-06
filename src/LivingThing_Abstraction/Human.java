@@ -1,4 +1,4 @@
-package LivingThing_Consructor;
+package LivingThing_Abstraction;
 
 public class Human extends LivingthingParent {
  protected String Name;
@@ -66,6 +66,12 @@ public String getCooking() {
 
 public void setCooking(String cooking) {
 	this.cooking = cooking;
+}
+
+@Override
+public void sleep() {
+	// TODO Auto-generated method stub
+	System.out.println("Human sleep: ZZzZZZZZz");
 }
  
  
